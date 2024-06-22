@@ -9,7 +9,7 @@ This project is a web scraping tool designed to extract product information from
 ### Key Features
 
 - Scrapes product information from category pages.
-- Uses Selenium WebDriver for dynamic content loading.
+- Uses Selenium WebDriver for dynamic content loading and for your current location (pincode) input
 - Implements BeautifulSoup for parsing HTML content.
 - Stores scraped data in CSV format.
 
