@@ -12,6 +12,7 @@ This project is a web scraping tool designed to extract product information from
 - Uses Selenium WebDriver for dynamic content loading and for your current location (pincode) input
 - Implements BeautifulSoup for parsing HTML content.
 - Stores scraped data in CSV format.
+- Multithreading for significant increase in scraping data
 
 ### Technology Stack
 
@@ -45,7 +46,9 @@ This project is a web scraping tool designed to extract product information from
 4. **Category URL Changes**:
    - The tool uses category links to scrape all products. If the format of the URL or the category name changes, it may not access the category.
    - **Action**: Regularly verify and update category links to match the website's current structure.
-
+5. **Number of cores in your PC/Laptop**:
+   - the number of core in My Laptop was 2 so i can do threading about 4, but to be safe keep it half or 3/4 so that CPU does not get too much Laod
+   - **Action**: check properties in My Pc. Octa core Pc's are best for it
 ### Problems Faced in Big Basket
 
 1. **Dynamic Product Loading**:
