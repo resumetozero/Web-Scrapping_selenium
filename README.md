@@ -54,7 +54,7 @@ This project is a web scraping tool designed to extract product information from
 
 2. **Weight or Unit Information**:
    - Weight or unit information is not consistently provided in a specific segment. The script scrapes it from tabs and titles.
-   - **Action**: Handle variations in unit formats such as "200 g", "200 gm", "2 x 200 g" more robustly. Consider implementing regex patterns for better extraction.
+   - **Action**: still on it.....
 
 ### Problems Faced in Flipkart Grocery
 
@@ -73,15 +73,3 @@ This project is a web scraping tool designed to extract product information from
 ### Contributing
 
 Feel free to fork this repository, create a branch, and submit pull requests. Contributions are welcome for improving the scraping efficiency, handling edge cases, and updating the script to adapt to website changes.
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Contact
-
-For any questions or issues, please contact [Your Name] at [Your Email Address].
-
----
-
-Ensure to replace placeholders with actual details, and regularly update the README to reflect any changes in the project or website structures.
