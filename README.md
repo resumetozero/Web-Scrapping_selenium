@@ -12,7 +12,7 @@ This project is a web scraping tool designed to extract product information from
 - Uses Selenium WebDriver for dynamic content loading and for your current location (pincode) input
 - Implements BeautifulSoup for parsing HTML content.
 - Stores scraped data in CSV format.
-- Multithreading for significant increase in scraping data
+- Multithreading for significant increase in speed of scraping data
 
 ### Technology Stack
 
