@@ -7,13 +7,21 @@
 This project is a web scraping tool designed to extract product information from e-commerce websites such as Big Basket and Flipkart Grocery. The tool uses Python, Selenium WebDriver, BeautifulSoup, and other libraries to navigate through web pages and gather data efficiently. However, there are several considerations and vulnerabilities to keep in mind when using this tool.
 
 ### Key Features
+1) By interacting with webpages
+   - Scrapes product information from category pages.
+   - Uses Selenium WebDriver for dynamic content loading and for your current location (pincode) input
+   - Implements BeautifulSoup for parsing HTML content.
+   - Stores scraped data in CSV format.
+   - Multi-Threading for multiple requests at a time to increase speed
 
-- Scrapes product information from category pages.
-- Uses Selenium WebDriver for dynamic content loading and for your current location (pincode) input
-- Implements BeautifulSoup for parsing HTML content.
-- Stores scraped data in CSV format.
-- Multithreading for significant increase in speed of scraping data
-
+2) Using bigbasket API link
+   - Scrapes product information from category pages.
+   - Data efficiency increased and also worked on data transformation.
+   - whole category within 2-3 min.
+   - Stores scraped data in CSV format.
+   - data is transformed into sub csv files based on MLC (Medium level category) and LLC (Low level category)
+   - Multi-Threading for multiple requests at a time to increase speed
+   
 ### Technology Stack
 
 - **Python**: Core programming language used for scripting.
@@ -22,6 +30,8 @@ This project is a web scraping tool designed to extract product information from
 - **Requests**: For making HTTP requests to web pages.
 - **CSV**: For exporting the scraped data.
 - **re**: For regular expression operations.
+- **Thread**: For multiple request sending
+- **Panda**: For data transformation
 
 ### Usage
 
@@ -46,9 +56,7 @@ This project is a web scraping tool designed to extract product information from
 4. **Category URL Changes**:
    - The tool uses category links to scrape all products. If the format of the URL or the category name changes, it may not access the category.
    - **Action**: Regularly verify and update category links to match the website's current structure.
-5. **Number of cores in your PC/Laptop**:
-   - the number of core in My Laptop was 2 so i can do threading about 4, but to be safe keep it half or 3/4 so that CPU does not get too much Laod
-   - **Action**: check properties in My Pc. Octa core Pc's are best for it
+
 ### Problems Faced in Big Basket
 
 1. **Dynamic Product Loading**:
