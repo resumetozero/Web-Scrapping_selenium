@@ -16,10 +16,8 @@ This project is a web scraping tool designed to extract product information from
 
 2) Using bigbasket API link
    - Scrapes product information from category pages.
-   - Data efficiency increased and also worked on data transformation.
    - whole category within 2-3 min.
    - Stores scraped data in CSV format.
-   - data is transformed into sub csv files based on MLC (Medium level category) and LLC (Low level category)
    - Multi-Threading for multiple requests at a time to increase speed
    
 ### Technology Stack
