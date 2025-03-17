@@ -1,3 +1,11 @@
+// Featrures:
+// Automated navigation through the booking portal.
+// Input form filling (user details, preferences, etc.).
+// Dynamic slot selection based on availability.
+// Retry mechanism for failed attempts.
+// Headless or visible browser execution mode.
+// Logging for debugging and monitoring.
+
 const puppeteer = require('puppeteer');
 const prompt = require('prompt-sync')({ sigint: true });
 
